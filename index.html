@@ -91,7 +91,7 @@
                     function addTableItem(name, dn, cv) // dn = data number, cv = clap value
                     {
                         var rand1 = Math.floor((Math.random() * 15) + 1);
-                        var clapSpeed = 4;
+                        var clapSpeed = rand1;
 
                         
                         $('#myTable').append('<tr class="playerColor' + dn + ' id="watch' + dn + '"><td>' + dn + '</td><td>' + name + '</td><td>' + clapSpeed + ' claps/min</td><td id="watch1">' + cv +'</td></tr>');/**/
